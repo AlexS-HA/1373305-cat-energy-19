@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Alex](https://up.htmlacademy.ru/adaptive/19/user/1373305).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Гуляев]https://htmlacademy.ru/profile/dima).
 
 ---
 
