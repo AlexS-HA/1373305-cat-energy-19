@@ -7,6 +7,143 @@
 </head>
 
 <body>
+  <header class="page-header">
+    <img alt="" class="page-header__logo" src="https://via.placeholder.com/150x150">
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">Открыть меню</button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav_list site-list">
+          <li class="site-list__item">
+            <a class="site-list__link">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="catalog.html">Каталог продукции</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="form.html">Подбор программы</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="page-main">
+    <section class="program-selection">
+      <h2 class="page-main__title title">Подбор программы</h2>
+      <p class="program-selection__description">Заполните анкету и мы подберем программу питания для вашего кота</p>
+      <form class="program-selection__form" action="https://echo.htmlacademy.ru">
+        <fieldset class="program-selection__info">
+          <div class="program-selection__wrapper">
+            <label class="program-selection__label">Имя:*</label>
+            <input class="program-selection__input" type="text" required>
+          </div>
+          <div class="program-selection__wrapper">
+            <label class="program-selection__label">Вес (кг):*</label>
+            <input class="program-selection__input" type="text" required>
+          </div>
+          <div class="program-selection__wrapper">
+            <label class="program-selection__label">Возраст (лет):*</label>
+            <input class="program-selection__input" type="text" required>
+          </div>
+        </fieldset>
+        <fieldset class="program-selection__choose-radio">
+          <div class="program-selection__wrapper">
+            <label class="program-selection__label">Похудение</label>
+            <input class="program-selection__radio" type="radio">
+          </div>
+          <div class="program-selection__wrapper">
+            <label class="program-selection__label">Набор массы</label>
+            <input class="program-selection__radio" type="radio">
+          </div>
+          <div class="program-selection__wrapper">
+            <label class="program-selection__label">Не знаю (нужен ваш совет)</label>
+            <input class="program-selection__radio" type="radio">
+          </div>
+        </fieldset>
+        <fieldset class="program-selection__contacts">
+          <legend class="program-selection__legend-text">Контактные данные (владельца кота)</legend>
+          <div class="program-selection__wrapper">
+            <label class="program-selection__label">E-mail:*</label>
+            <div class="program-selection__wrapper program-selection__wrapper--icon">
+              <input class="program-selection__input" type="email" placeholder="kuklachev@gmail.com" required>
+              <img src="" alt="" class="program-selection__img-email">
+            </div>
+          </div>
+          <div class="program-selection__wrapper">
+            <label class="program-selection__label">Телефон:*</label>
+            <div class="program-selection__wrapper program-selection__wrapper--icon">
+              <input type="tel" class="program-selection__input" placeholder="8 (960) 900-60-90" required>
+              <img class="program-selection__img-phone" src="" alt="">
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="program-selection__remark">
+          <div class="program-selection__wrapper">
+            <legend class="program-selection__legend-text">Комментарий</legend>
+            <textarea class="program-selection__input program-selection__input-remark"
+              placeholder="расскажите обо всех повадках кота"></textarea>
+          </div>
+        </fieldset>
+        <fieldset class="program-selection__additionally">
+          <legend class="program-selection__legend-text">Дополнительно</legend>
+          <div class="program-selection__wrapper">
+            <input class="program-selection__input" type="checkbox">
+            <label class="program-selection__label">Сахарозаменитель</label>
+          </div>
+          <div class="program-selection__wrapper">
+            <input class="program-selection__input" type="checkbox">
+            <label class="program-selection__label">Питьевая вода</label>
+          </div>
+          <div class="program-selection__wrapper">
+            <input class="program-selection__input" type="checkbox">
+            <label class="program-selection__label">Молоко</label>
+          </div>
+          <div class="program-selection__wrapper">
+            <input class="program-selection__input" type="checkbox">
+            <label class="program-selection__label">Витамины</label>
+          </div>
+        </fieldset>
+        <div class="program-selection__submit-button">
+          <button type="submit" class="program-selection__button button">Отправить заявку</button>
+        </div>
+      </form>
+    </section>
+    <section class="contacts">
+      <div class="contacts__wrapper">
+        <h2 class="contacts__title">Приглашаем к сотрудничеству дилеров!</h2>
+        <p class="contacts__adress">ул. Большая Конюшенная, д. 19/18 Санкт-Петербург</p>
+        <div class="contacts__map">
+          <img src="" alt="" class="contacts_map-image">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__wrapper">
+      <img alt="" class="page-footer__logo" src="https://via.placeholder.com/150x150">
+      <ul class="page-footer_list social__list">
+        <li class="social__list__item">
+          <a class="social__list_link" href="">
+            <img class="social__list social__img--vk" src="https://via.placeholder.com/150x150" alt="">
+          </a>
+        </li>
+        <li class="social__list__item">
+          <a class="social__list_link" href="">
+            <img class="social__list social__img--inst" src="https://via.placeholder.com/150x150" alt="">
+          </a>
+        </li>
+        <li class="social__list__item">
+          <a class="social__list_link" href="">
+            <img class="social__list social__img--facebook" src="https://via.placeholder.com/150x150" alt="">
+          </a>
+        </li>
+      </ul>
+      <div class="copyright">
+        <span class="copyright__text">HTML Academy</span>
+        <a class="copyright__link" href="">
+          <img class="copyright__img" src="https://via.placeholder.com/150x150" alt="">
+        </a>
+      </div>
+  </footer>
 </body>
 
 </html>
